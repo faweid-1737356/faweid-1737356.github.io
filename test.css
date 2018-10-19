@@ -1,0 +1,115 @@
+body{
+    background-image: url("dark_wood.png");
+}
+#Header {
+    border: solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #8E41D5;
+    outline-style: groove;
+    outline-color: yellow;
+    border-radius: 25px;
+    border-radius: 25px;
+    text-shadow: 6px 6px red;
+
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+}
+a{ 
+    color: white;
+    font-weight: bold;
+    font-size:24px;
+}
+
+h3{
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 8px
+}
+
+p {
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+
+#LeftNav {
+    border: solid 8px black;
+    width: 400px;
+    float: left;
+    text-align: center;
+    padding - bottom: 8px;
+    background-color: #8E41D5
+
+
+}
+
+ a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+#Content {
+    border:solid 8px black;
+    width: 700px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8E41D5;
+    border-radius: 25px;
+   
+    
+
+}
+
+p {
+    color: red;
+    /* This is a single-line comment */
+    text-align: center;
+}
+
+/* This is
+a multi-line
+comment */
+
+#Footer {
+    border:solid 8px black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:#8E41D5;
+       border-style: dotted solid;
+       border-radius: 25px;
+}
+
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
