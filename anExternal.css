@@ -1,0 +1,44 @@
+h1 {
+    font-size:40px; color: blue;
+
+}
+p {
+    color:yellow
+}
+img{
+    height:50px;  
+    width：50px;
+    float: none; 
+    border-radius: 25px;
+}
+
+span {
+    float: none;
+    width: 0.7em;
+    font-size: 300%;
+    font-family: algerian, courier;
+    line-height: 50%;
+}
+
+h1 {
+    border: 5px dotted purple
+}
+
+h2 {
+    border: 4px dotted blue;
+}
+
+body {
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+div {
+    border: double
+}
