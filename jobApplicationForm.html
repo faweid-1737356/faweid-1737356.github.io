@@ -1,0 +1,182 @@
+<h2>Job Application</h2>
+
+<form action="html_form_action.asp"method="post"></form>
+
+<table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td style="width:50%">
+<b>First name *</b><br />
+<input name="First_Name" type="text" maxlength="50" style="width:260px" />
+</td>
+<td style="width:50%">
+<b>Last name *</b><br />
+<input name="Last_Name" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td colspan="4">
+
+        <!doc Type Html>
+        <html lang="en">
+        <Head>
+        <Meta char set="utf-8"/>
+        <Title>Dates Example </Title>
+        </head>
+        <body>
+        <form>
+        <b>Today's Date * </b><br /><input type= "date" name="dateToday" placeholder="Today's Date" required>
+    </td>
+</tr>
+<tr>
+<td colspan="1">
+
+<b>Password *</b><br />
+<input name="Password" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<b>Repeat Password *</b><br />
+<input name="Repeat Password" type="text" maxlength="50" style="width: 260px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<b>Email *</b><br />
+<input name="Email_Address" type="text" maxlength="100" style="width:535px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<b>Portfolio website</b><br />
+<input name="Portfolio" type="text" maxlength="255" value="http://" style="width:535px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+        <b> What position are applying for? *</b><br />
+
+    </td>
+</tr>
+<tr>
+<td colspan="2">
+
+
+        <select name="job"> 
+             <option value="Job 1">Accountant</option>
+             <option value="Job 2">Human Resource</option> 
+             <option value="Job 3">Technician</option>
+             <option value="audi">Public Relation</option> </select>
+            </td>
+        </tr>
+        <tr>
+        <td colspan="2">
+
+<b>What type of position are you seeking? (check all that apply) *</b><br />
+<ul>
+    <li><input name="position_pt" value="parttime" type="checkbox">Part time</li>
+    <li><input name="position_ft" value="fulltime" type="checkbox">Full time</li>
+    <li><input name="position_sl" value="seasonal" type="checkbox">Seasonal</li>
+    <li><input name="position_tp" value="temporary" type="checkbox">Temporary</li>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<b>Hours available*</b><br />
+			<table>
+				<tbody><tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input size="5" name="su_from" type="time"></td>
+					<td><input size="5" name="mo_from" type="time"></td>
+					<td><input size="5" name="tu_from" type="time"></td>
+					<td><input size="5" name="we_from" type="time"></td>
+					<td><input size="5" name="th_from" type="time"></td>
+					<td><input size="5" name="fr_from" type="time"></td>
+					<td><input size="5" name="sa_from" type="time"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input size="5" name="su_until" type="time"></td>
+					<td><input size="5" name="mo_until" type="time"></td>
+					<td><input size="5" name="tu_until" type="time"></td>
+					<td><input size="5" name="we_until" type="time"></td>
+					<td><input size="5" name="th_until" type="time"></td>
+					<td><input size="5" name="fr_until" type="time"></td>
+					<td><input size="5" name="sa_until" type="time"></td>
+				</tr>
+			</tbody></table>
+		</div>
+    </td>
+</tr>
+<tr>
+<td colspan="2">
+
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width:50%">
+<b>Salary requirements</b><br />
+<input name="Salary" type="text" maxlength="50" style="width:260px" />
+</td>
+<td style="width:50%">
+<b>When can you start?</b><br />
+<input name="StartDate" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td style="width:50%">
+<b>Phone *</b><br />
+<input name="Phone" type="text" maxlength="50" style="width:260px" />
+</td>
+<td style="width:50%">
+<b>Fax</b><br />
+<input name="Fax" type="text" maxlength="50" style="width:260px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<b>Are you legally eligible to work in the US?</b><br />
+<input name="Relocate" type="radio" value="Yes" checked="checked" /> Yes &nbsp; &nbsp; &nbsp;
+<input name="Relocate" type="radio" value="No" /> No &nbsp; &nbsp; &nbsp;
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<b>Last company you worked for</b><br />
+<input name="Organization" type="text" maxlength="100" style="width:535px" />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<b>Reference / Comments / Questions</b><br />
+<textarea name="Reference" rows="7" cols="40" style="width:535px"></textarea>
+</td>
+</tr>
+</table>
+<br />
+<div style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0" style="text-align:center; width:300px; margin:auto;">
+<tr><td colspan="2" style="padding-bottom:18px;">
+
+<br /><br />
+<input value="Submit form" type="submit">
+</div>
+</form>
